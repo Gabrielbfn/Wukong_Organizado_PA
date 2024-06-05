@@ -1,0 +1,173 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container-home{
+  /* background-color: rgb(24, 21, 21); */
+ display: flex;
+ flex-direction: row;
+
+}
+
+body{
+  background-image: url('./assets/images/arte_menu_Wukong_novo.png');
+  
+}
+
+.container-h1{
+/* flex: auto 60px;
+justify-content: flex-end; */
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.titulo-home h1{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+ .titulo-home{
+  font-size: 80px;
+  color: #412B1F;
+  position: relative;
+  position: fixed;
+  top: 80px; 
+  left: 100px;}
+
+  .tituo-home2{
+    font-size: 80px;
+    color: #412B1F;
+    position: relative;
+    position: fixed;
+    top: 170px; 
+    left: 100px;
+  } 
+  
+  
+  /* 
+  \\\\\\\\ */
+  
+  
+  .botao-home{
+
+
+
+    margin: 80px 20px 100px 1850px; 
+    display: block;
+    display: flex;
+    flex-direction: column;
+
+     /* padding: 10px 100px 0 100px;
+                     */
+  
+  }
+  
+
+  /* .jogar img{
+
+    background-image: url('./assets/images/1713991542711.png');
+  } */
+
+
+
+  
+  .jogar-bottao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+
+  .img jogar-buttom{
+    width: 400px;
+   height: 100px;
+    background-color: transparent;
+
+ 
+  } 
+
+
+/*   
+  
+  .novo-jogo{
+
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    padding: 300px;
+background-color: #543321;
+    height: 100px;
+    width: 230px;
+    margin: 35px;
+    display: flex;
+    border-radius: 30px;
+    box-shadow: 1px 3px 8px rgba(0,0,0, 0.5); 
+  
+  
+  }
+  
+  .novo-jogo button{
+    background-color: transparent;
+    border: 0;
+    font-size: 13px;
+    color: aliceblue;
+    outline: none;
+    margin-right: 8px;
+    margin: 0 80px;
+  }
+  
+  
+  
+  
+  .opicoes{
+    background-color: #543321;
+    height: 51px;
+    width: 220px;
+    margin: 35px;
+    display: flex;
+    border-radius: 30px;
+    box-shadow: 1px 3px 8px rgba(0,0,0, 0.5);
+  
+  
+  }
+  
+  .opções button{
+    background-color: transparent;
+    border: 0;
+    font-size: 19px;
+    color: aliceblue;
+    outline: none;
+    margin-right: 8px;
+    margin: 0 80px;
+  }
+  
+  
+  .opicao{
+    background-color: #543321;
+    height: 100px;
+    width: 100px;
+    margin: 35px;
+    display: flex;
+    border-radius: 100px;
+    box-shadow: 1px 3px 8px rgba(0,0,0, 0.5);
+  
+  
+  }
+  
+  .opicao button{
+    background-color: transparent;
+    border: 0;
+    font-size: 19px;
+    color: aliceblue;
+    outline: none;
+    margin-right: 8px;
+    margin: 0 80px;
+  }
+   */
